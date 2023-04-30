@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+    height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*------------------------*/
+
+.body {
+    background-color: #e8e8e8;
+}
+
+.lines {
+    background: url(../img/Ellipse\ 1\ copy.png);
+    width: 1188px;
+    height: 1063px;
+    margin: 106px 108px 0px 142px;
+}
+
+h1 {
+    display: block;
+    padding: 52px 0 0 0;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(39, 61, 70, 0.6);
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #273d46;
+    line-height: 50px;
+    font-size: 36px;
+    width: 762px;
+    height: 714px;
+    margin: 18px 264px 0px 205px;
+}
+
+.backPhoto {
+    background: url(../img/light-man\ copy.svg) 50% 50% no-repeat;
+    width: 841px;
+    height: 561px;
+    filter: drop-shadow(0px 15px 32.5px rgba(15,16,16,0.15));
+    box-shadow: 0px 0px 10px #000;
+    margin: -555px 0px 0px 184px;
+}
+
+div .text {
+    margin: -147px 0px 0px 334px;
+    width: 750px;
+    height: 525px;
+    font-size: 24px;
+    line-height: 40px;
+    color: #273d46;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.list {
+    margin: -200px 0px 0px 370px;
+}
+
+.list li {
+    font-size: 20px;
+    background: url(../img/check\ icon.svg) left  no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+
+.txt1 {
+    font-size: 20px;
+    line-height: 36px;
+    color: #273d46;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.3));
+}
+
+.txt2 {
+    font-size: 20px;
+    line-height: 36px;
+    color: #80b7b3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt3 {
+    font-size: 20px;
+    line-height: 36px;
+    color: #273d46;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt4 {
+    font-size: 20px;
+    line-height: 36px;
+    text-decoration: line-through;
+    color: rgba(39, 61, 70, 0.302);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textbutton {
+    box-shadow: 0px 6px 20px;
+    height: 44px;
+    width: 199px;
+    background: rgba(128,183,179);
+    border-radius: 25px;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 59px 911px 137px 330px;
+}
